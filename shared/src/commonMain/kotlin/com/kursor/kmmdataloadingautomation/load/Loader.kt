@@ -10,7 +10,7 @@ interface Loader<T> {
     val refreshTime: Duration
     val clearTime: Duration
 
-    val data: Loadable<T>?
+    val data: Loadable<T>
 
     suspend fun loadData(): Loadable<T>
 

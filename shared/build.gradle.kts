@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.js.inline.clean.simplifyWrappedFunctions
-
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
