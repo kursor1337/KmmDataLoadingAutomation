@@ -1,7 +1,7 @@
-package com.example.kmmdataloadingautomation
+package com.kursor.kmmdataloadingautomation
 
-import com.example.kmmdataloadingautomation.load.Loader
-import com.example.kmmdataloadingautomation.load.LoaderImpl
+import com.kursor.kmmdataloadingautomation.load.Loader
+import com.kursor.kmmdataloadingautomation.load.LoaderImpl
 import kotlinx.coroutines.CoroutineScope
 import kotlin.time.Duration
 

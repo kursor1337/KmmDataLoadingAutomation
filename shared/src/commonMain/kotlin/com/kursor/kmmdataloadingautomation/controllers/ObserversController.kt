@@ -1,6 +1,6 @@
-package com.example.kmmdataloadingautomation.controllers
+package com.kursor.kmmdataloadingautomation.controllers
 
-import com.example.kmmdataloadingautomation.observe.ObserverId
+import com.kursor.kmmdataloadingautomation.observe.ObserverId
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch

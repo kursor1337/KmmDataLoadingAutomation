@@ -1,6 +1,6 @@
-package com.example.kmmdataloadingautomation.load
+package com.kursor.kmmdataloadingautomation.load
 
-import com.example.kmmdataloadingautomation.observe.Observable
+import com.kursor.kmmdataloadingautomation.observe.Observable
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.time.Duration

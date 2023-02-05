@@ -1,7 +1,7 @@
-package com.example.kmmdataloadingautomation.observe
+package com.kursor.kmmdataloadingautomation.observe
 
-import com.example.kmmdataloadingautomation.controllers.ObserversController
-import com.example.kmmdataloadingautomation.load.Loadable
+import com.kursor.kmmdataloadingautomation.controllers.ObserversController
+import com.kursor.kmmdataloadingautomation.load.Loadable
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.flow.*

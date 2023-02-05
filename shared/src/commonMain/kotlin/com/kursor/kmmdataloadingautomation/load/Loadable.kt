@@ -1,4 +1,4 @@
-package com.example.kmmdataloadingautomation.load
+package com.kursor.kmmdataloadingautomation.load
 
 interface Loadable<T> {
 

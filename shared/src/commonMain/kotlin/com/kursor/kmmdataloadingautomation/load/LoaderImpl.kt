@@ -1,10 +1,10 @@
-package com.example.kmmdataloadingautomation.load
+package com.kursor.kmmdataloadingautomation.load
 
-import com.example.kmmdataloadingautomation.observe.Observable
-import com.example.kmmdataloadingautomation.observe.ObservableImpl
-import com.example.kmmdataloadingautomation.controllers.DataController
-import com.example.kmmdataloadingautomation.controllers.DataEventController
-import com.example.kmmdataloadingautomation.controllers.ObserversController
+import com.kursor.kmmdataloadingautomation.observe.Observable
+import com.kursor.kmmdataloadingautomation.observe.ObservableImpl
+import com.kursor.kmmdataloadingautomation.controllers.DataController
+import com.kursor.kmmdataloadingautomation.controllers.DataEventController
+import com.kursor.kmmdataloadingautomation.controllers.ObserversController
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.time.Duration

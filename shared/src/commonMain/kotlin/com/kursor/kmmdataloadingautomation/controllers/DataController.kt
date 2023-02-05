@@ -1,9 +1,9 @@
-package com.example.kmmdataloadingautomation.controllers
+package com.kursor.kmmdataloadingautomation.controllers
 
-import com.example.kmmdataloadingautomation.load.Loadable
-import com.example.kmmdataloadingautomation.load.LoadableImpl
-import com.example.kmmdataloadingautomation.load.LoadingError
-import com.example.kmmdataloadingautomation.controllers.DataController.Event.*
+import com.kursor.kmmdataloadingautomation.load.Loadable
+import com.kursor.kmmdataloadingautomation.load.LoadableImpl
+import com.kursor.kmmdataloadingautomation.load.LoadingError
+import com.kursor.kmmdataloadingautomation.controllers.DataController.Event.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

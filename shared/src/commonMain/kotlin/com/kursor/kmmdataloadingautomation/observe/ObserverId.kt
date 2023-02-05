@@ -1,4 +1,4 @@
-package com.example.kmmdataloadingautomation.observe
+package com.kursor.kmmdataloadingautomation.observe
 
 import kotlin.jvm.JvmInline
 

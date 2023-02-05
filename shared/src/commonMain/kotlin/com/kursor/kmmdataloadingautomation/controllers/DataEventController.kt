@@ -1,4 +1,4 @@
-package com.example.kmmdataloadingautomation.controllers
+package com.kursor.kmmdataloadingautomation.controllers
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

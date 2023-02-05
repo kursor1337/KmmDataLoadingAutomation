@@ -1,4 +1,4 @@
-package com.example.kmmdataloadingautomation.load
+package com.kursor.kmmdataloadingautomation.load
 
 internal class LoadableImpl<T> private constructor(
     override val data: T?,
