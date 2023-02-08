@@ -57,7 +57,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.example.kmmdataloadingautomation"
+    namespace = "com.kursor.kmmdataloadingautomation"
     compileSdk = 33
     defaultConfig {
         minSdk = 26
