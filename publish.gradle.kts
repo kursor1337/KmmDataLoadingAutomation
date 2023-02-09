@@ -68,6 +68,13 @@ configure<PublishingExtension> {
             description.set("Sample Kotlin Multiplatform library that helps automate network requests and data storage")
             url.set("https://github.com/kursor1337/KmmDataLoadingAutomation")
 
+            licenses {
+                license {
+                    name.set("The MIT License")
+                    url.set("https://github.com/kursor1337/KmmDataLoadingAutomation/blob/master/LICENSE")
+                }
+            }
+
             developers {
                 developer {
                     id.set("kursor1337")
