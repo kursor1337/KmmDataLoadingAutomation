@@ -1,8 +1,9 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
-    id("maven-publish")
 }
+
+apply(from = "${rootDir}/publish.gradle.kts")
 
 group = "io.github.kursor1337"
 version = "0.1"
@@ -14,6 +15,7 @@ kotlin {
                 jvmTarget = "1.8"
             }
         }
+        publishLibraryVariants("release")
     }
     
     listOf(
