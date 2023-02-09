@@ -1,7 +1,11 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("maven-publish")
 }
+
+group = "io.github.kursor1337"
+version = "0.1"
 
 kotlin {
     android {

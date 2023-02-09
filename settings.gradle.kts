@@ -1,20 +1,18 @@
 pluginManagement {
     repositories {
         google()
-        gradlePluginPortal()
         mavenCentral()
     }
 }
 
 rootProject.name = "kmm-data-loading-automation"
-include(":shared")
+include(":kmm-data-loading-automation")
 
 
 dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
 
     versionCatalogs {
