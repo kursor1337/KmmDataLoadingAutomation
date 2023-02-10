@@ -16,7 +16,7 @@ implementation("io.github.kursor1337:kmm-data-loading-automation:0.1")
 First create an instance of LoaderClient
 
 ```kotlin
-val loaderClient = LoaderClient(*coroutineScope*))
+val loaderClient = LoaderClient(CoroutineScope())
 ```
 
 In your repository create a loader
@@ -36,9 +36,14 @@ class PokemonRepositoryImpl(
 
 In your ViewModel or Decompose Component use
 ```kotlin
-  // observerCoroutineScope = viewModelScope or component.lifecycle.coroutineScope(), isObserverActive = stateflow that shows that this observer is still active
-  // ignore exceptions = flag that you set, if false, exceptions will not be handled(may be usefull in debugging)
-  val pokemons = pokemonLoader.observe(observerCoroutineScope: CoroutineScope, isObserverActive: StateFlow<Boolean>, ignoreExceptions: Boolean)
+  // observerCoroutineScope = viewModelScope or component.lifecycle.coroutineScope(),
+  // isObserverActive = stateflow that shows that this observer is still active
+  // ignoreExceptions = if false, exceptions will be thrown
+  val pokemons = pokemonLoader.observe(
+    observerCoroutineScope: CoroutineScope, 
+    isObserverActive: StateFlow<Boolean>, 
+    ignoreExceptions: Boolean
+  )
 ```
 
 loader.observe() returns Observable object which has flow in it, which you can than convert into something you want (for example into Compose State)
