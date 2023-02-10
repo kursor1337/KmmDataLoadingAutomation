@@ -2,6 +2,7 @@
 Simple KMM library for loading data
 
 This library was created as KMM duplicate to [Replica](https://github.com/aartikov/Replica/) for university project
+
 Replica now has official KMM support, so check it out!
 
 ## Getting Started
