@@ -1,7 +1,7 @@
 # KmmDataLoadingAutomation
 Simple KMM library for loading data
 
-This library was created as KMM duplicate to [Replica](https://github.com/aartikov/Replica/) for university project
+This library was created as KMM duplicate to [Replica](https://github.com/aartikov/Replica/) for university project (Replica didn't have kmm support at the time)
 
 Replica now has official KMM support, so check it out!
 
